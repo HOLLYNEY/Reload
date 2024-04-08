@@ -8,7 +8,7 @@ import java.sql.*;
 //192.168.0.47:5432/postgres
 @SpringBootApplication
 public class SQL {
-    private static final String URL = "jdbc:postgresql://localhost:5432/postgres";
+    private static final String URL = "jdbc:postgresql://192.168.0.47:5432/postgres";
     private static final String USER = "postgres";
     private static final String PASSWORD = "postgres";
 
